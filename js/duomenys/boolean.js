@@ -47,11 +47,11 @@ console.log('>>>>', willIGoTo);
 //- turi buti jaunas
 //- turi buti turtingas
 
-const isHandsome_v = true;
-const isYoung_v = true;
-const isRich_v = false;
+const isPretty = true;
+const isYoung_2 = true;
+const isRich_2 = false;
 
-const willIGoTo_v = isHandsome || isYoung || isRich;
+const willIGoTo_v = isPretty || isYoung_2 || isRich_2;
 console.log('>>>>', willIGoTo_v);
 
 console.clear();
