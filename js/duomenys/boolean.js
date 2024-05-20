@@ -56,7 +56,7 @@ console.log('>>>>', willIGoTo_v);
 
 console.clear();
 
-// ! pavyzdys
+// '!' pavyzdys
 
 console.log(!true);
 console.log(!!false);
