@@ -226,4 +226,25 @@ console.log(combo1_ans, combo2_ans, combo3_ans);
 
 console.clear();
 
-// Pabaigti
+// 1.4
+const words1 = ['Labas', 'Sveikas', 'Viso', 'Dangus', 'Zeme'];
+console.log(words1);
+
+const words2 = ['Masina', 'Namas', 'Tvora', 'Dviratis', 'Stalas'];
+console.log(words2);
+
+const words3 = ['Medis', 'Langas', 'Ranka', 'Kiemas', 'Laukas'];
+console.log(words3);
+
+const words1_combo = words1[4] + ', ' + words1[3] + ', ' + words1[2] + ', ' + words1[1] + ', ' + words1[0];
+console.log(words1_combo);
+
+const words2_combo = words2[4] + ', ' + words2[3] + ', ' + words2[2] + ', ' + words2[1] + ', ' + words2[0];
+console.log(words2_combo);
+
+const words3_combo = words3[4] + ', ' + words3[3] + ', ' + words3[2] + ', ' + words3[1] + ', ' + words3[0];
+console.log(words3_combo);
+
+console.clear();
+
+// Pabaigt
