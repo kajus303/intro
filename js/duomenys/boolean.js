@@ -60,3 +60,12 @@ console.clear();
 
 console.log(!true);
 console.log(!!false);
+
+// ND - visos 128 kombinacijos
+console.log(true && true && true && true);
+console.log(true && true && true && false);
+
+console.log(true && true && true || true);
+console.log(true && true && true || false);
+
+console.clear();

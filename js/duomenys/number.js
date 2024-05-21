@@ -10,7 +10,7 @@ NUMBERS
 - NaN (not-a-number)
 
 Matematiniai operatoriai:
-- aritmetiniai: +, -, *, /, **, % 
+- aritmetiniai: +, -, *, /, **, %, ++, --
 - priskyrimo: +=, -=, *=, /=, **=, %=
 */
 
@@ -141,3 +141,44 @@ console.log('ats', z);
 
 z *= 2 + 2;            // Tas pats, kaip ir su skliausteliais
 console.log('ats', z);
+
+let zz = 10;
+
+zz *= 10 + 10 + 10;
+console.log(zz);
+
+console.clear();
+
+let makaronai = 2;
+console.log(makaronai);
+
+makaronai = makaronai + 2;
+console.log(makaronai);
+
+makaronai += 2;
+console.log(makaronai);
+
+makaronai += 1;
+console.log(makaronai);
+
+makaronai++;
+makaronai++;
+makaronai++;
+makaronai++;
+makaronai++;
+makaronai++;
+console.log(makaronai);
+
+console.clear();
+
+let g = 6;
+
+console.log(g);
+
+// pirmiau spausdina, paskui padidina
+console.log(g++);
+
+// pirmiau padidina paskui spausdina
+console.log(++g);
+
+console.log(g);
