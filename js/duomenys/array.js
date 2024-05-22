@@ -48,3 +48,31 @@ sum3 += marks[index++];
 sum3 += marks[index++];
 sum3 += marks[index++];
 console.log(sum3);
+
+console.clear();
+
+function marksAverage(mark) {
+    if (mark.length === 0) {
+    return 'Vidurkis: nera pazymiu.';
+    }
+    
+    let suma = 0;
+
+    return 'Vidurkis: ' + (suma / mark.length);
+}
+
+const jonasMarks = [];
+console.log(jonasMarks);
+console.log(marksAverage(jonasMarks));
+
+jonasMarks.push(10);
+console.log(jonasMarks);
+console.log(marksAverage(jonasMarks));
+
+jonasMarks.push(2);
+console.log(jonasMarks);
+console.log(marksAverage(jonasMarks));
+
+jonasMarks.push(8);
+console.log(jonasMarks);
+console.log(marksAverage(jonasMarks));
