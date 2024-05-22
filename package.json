@@ -5,7 +5,7 @@
   "scripts": {
     "testing": "node --watch ./uzduotys/testing.js",
     "for": "node --watch ./js/ciklai/for.js",
-    "tasks": "node --watch ./uzduotys/.js",
+    "tasks": "node --watch ./uzduotys/tasks.js",
     "array": "node --watch ./js/duomenys/array.js",
     "if": "node --watch ./js/palyginimas/if.js",
     "function": "node --watch ./js/funkcijos/function.js",
