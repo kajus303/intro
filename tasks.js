@@ -247,4 +247,164 @@ console.log(words3_combo);
 
 console.clear();
 
-// Pabaigt
+// 2.1
+
+const a_1 = 5;
+const b_1 = 10;
+
+if (a_1 > b_1) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (a_1 < b_1) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (a_1 === b_1) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (a_1 !== b_1) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (a_1 >= b_1) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (a_1 <= b_1) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+console.clear();
+
+// 2.2
+
+const text_1 = 'Sveiki atvyke!';
+const text_2 = 'Iki pasimatymo, drauge.';
+
+if (text_1.length > text_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (text_1.length < text_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (text_1.length === text_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (text_1.length !== text_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (text_1.length >= text_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (text_1.length <= text_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+console.clear();
+
+// 2.3
+
+const arr_1 = [2, 5, 3, 6, 7, 2, 10];
+const arr_2 = [20, 50, 30, 60, 70, 20, 100, 200];
+
+if (arr_1.length > arr_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (arr_1.length < arr_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (arr_1.length === arr_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (arr_1.length !== arr_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (arr_1.length >= arr_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+if (arr_1.length <= arr_2.length) {
+    console.log('Pomidoras');
+} else console.log('Bandykite dar karta.');
+
+console.clear();
+
+// 3.1
+
+const numbers3_a = [0, 0];
+let sum3_a = 0;
+
+for (let i = numbers3_a[0]; i <= numbers3_a[1]; i++) {
+    sum3_a += i;
+}
+
+console.log(sum3_a);
+
+const numbers3_b = [0, 4];
+let sum3_b = 0;
+
+for (let i = numbers3_b[0]; i <= numbers3_b[1]; i++) {
+    sum3_b += i;
+}
+
+console.log(sum3_b);
+
+const numbers3_c = [0, 100];
+let sum3_c = 0;
+
+for (let i = numbers3_c[0]; i <= numbers3_c[1]; i++) {
+    sum3_c += i;
+}
+
+console.log(sum3_c);
+
+const numbers3_d = [574, 815];
+let sum3_d = 0;
+
+for (let i = numbers3_d[0]; i <= numbers3_d[1]; i++) {
+    sum3_d += i;
+}
+
+console.log(sum3_d);
+
+const numbers3_e = [-50, 50];
+let sum3_e = 0;
+
+for (let i = numbers3_e[0]; i <= numbers3_e[1]; i++) {
+    sum3_e += i;
+}
+
+console.log(sum3_e);
+
+const numbers3_f = [-70, 30];
+let sum3_f = 0;
+
+for (let i = numbers3_f[0]; i <= numbers3_f[1]; i++) {
+    sum3_f += i;
+}
+
+console.log(sum3_f);
+
+console.clear();
+
+// 3.2
+
+const abcdef = 'abcdef';
+let reversed_abcdef = '';
+
+for (i = abcdef.length - 1; i >= 0; i--) {
+    reversed_abcdef += abcdef[i];
+}
+
+console.log(reversed_abcdef);
