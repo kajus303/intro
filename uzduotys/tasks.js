@@ -403,7 +403,7 @@ console.clear();
 const abcdef = 'abcdef';
 let reversed_abcdef = '';
 
-for (i = abcdef.length - 1; i >= 0; i--) {
+for (let i = abcdef.length - 1; i >= 0; i--) {
     reversed_abcdef += abcdef[i];
 }
 
@@ -493,6 +493,8 @@ for (let i = c_numbers[0]; i <= c_numbers[1]; i++) {
         nr7_count_c++
     }
 }
+
+console.clear();
 
 console.log(text3c[0], c_numbers[0], text3c[1], c_numbers[1], text3c[2], nr_div1_c, text3c[3], nr3_count_c, text3c[4]);
 console.log(text3c[0], c_numbers[0], text3c[1], c_numbers[1], text3c[2], nr_div2_c, text3c[3], nr5_count_c, text3c[4]);
