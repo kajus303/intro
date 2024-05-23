@@ -413,8 +413,9 @@ console.clear();
 
 // 3.3
 
+const text3a = ['Skaiciu intervale tarp ', ' ir ', ', besidalijanciu be liekanos is ', ' yra ', ' vienetai.'];
+
 const a_numbers = [0, 11];
-const text3a = ['Skaiciu intervale tarp ', ' ir ', ', besidalijanciu be liekanos is ', ' yra ', ' vienetai.']; 
 const nr_div1_a = 3;
 const nr_div2_a = 5;
 const nr_div3_a = 7;
@@ -436,14 +437,7 @@ for (let i = a_numbers[0]; i <= a_numbers[1]; i++) {
     }
 }
 
-console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div1_a, text3a[3], nr3_count_a, text3a[4]);
-console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div2_a, text3a[3], nr5_count_a, text3a[4]);
-console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div3_a, text3a[3], nr7_count_a, text3a[4]);
-
-console.log('---------------------------');
-
 const b_numbers = [8, 31];
-const text3b = ['Skaiciu intervale tarp ', ' ir ', ', besidalijanciu be liekanos is ', ' yra ', ' vienetai.']; 
 const nr_div1_b = 3;
 const nr_div2_b = 5;
 const nr_div3_b = 7;
@@ -465,14 +459,7 @@ for (let i = b_numbers[0]; i <= b_numbers[1]; i++) {
     }
 }
 
-console.log(text3b[0], b_numbers[0], text3b[1], b_numbers[1], text3b[2], nr_div1_b, text3b[3], nr3_count_b, text3b[4]);
-console.log(text3b[0], b_numbers[0], text3b[1], b_numbers[1], text3b[2], nr_div2_b, text3b[3], nr5_count_b, text3b[4]);
-console.log(text3b[0], b_numbers[0], text3b[1], b_numbers[1], text3b[2], nr_div3_b, text3b[3], nr7_count_b, text3b[4]);
-
-console.log('---------------------------');
-
 const c_numbers = [-18, 18];
-const text3c = ['Skaiciu intervale tarp ', ' ir ', ', besidalijanciu be liekanos is ', ' yra ', ' vienetai.']; 
 const nr_div1_c = 3;
 const nr_div2_c = 5;
 const nr_div3_c = 7;
@@ -496,6 +483,18 @@ for (let i = c_numbers[0]; i <= c_numbers[1]; i++) {
 
 console.clear();
 
-console.log(text3c[0], c_numbers[0], text3c[1], c_numbers[1], text3c[2], nr_div1_c, text3c[3], nr3_count_c, text3c[4]);
-console.log(text3c[0], c_numbers[0], text3c[1], c_numbers[1], text3c[2], nr_div2_c, text3c[3], nr5_count_c, text3c[4]);
-console.log(text3c[0], c_numbers[0], text3c[1], c_numbers[1], text3c[2], nr_div3_c, text3c[3], nr7_count_c, text3c[4]);
+console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div1_a, text3a[3], nr3_count_a, text3a[4]);
+console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div2_a, text3a[3], nr5_count_a, text3a[4]);
+console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div3_a, text3a[3], nr7_count_a, text3a[4]);
+
+console.log('---------------------------');
+
+console.log(text3a[0], b_numbers[0], text3a[1], b_numbers[1], text3a[2], nr_div1_b, text3a[3], nr3_count_b, text3a[4]);
+console.log(text3a[0], b_numbers[0], text3a[1], b_numbers[1], text3a[2], nr_div2_b, text3a[3], nr5_count_b, text3a[4]);
+console.log(text3a[0], b_numbers[0], text3a[1], b_numbers[1], text3a[2], nr_div3_b, text3a[3], nr7_count_b, text3a[4]);
+
+console.log('---------------------------');
+
+console.log(text3a[0], c_numbers[0], text3a[1], c_numbers[1], text3a[2], nr_div1_c, text3a[3], nr3_count_c, text3a[4]);
+console.log(text3a[0], c_numbers[0], text3a[1], c_numbers[1], text3a[2], nr_div2_c, text3a[3], nr5_count_c, text3a[4]);
+console.log(text3a[0], c_numbers[0], text3a[1], c_numbers[1], text3a[2], nr_div3_c, text3a[3], nr7_count_c, text3a[4]);
