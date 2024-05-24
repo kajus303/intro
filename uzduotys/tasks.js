@@ -539,6 +539,7 @@ ii.	console.log( daugyba( skaicius3, skaicius2 ) );
 iii.	console.log( daugyba( skaicius1, skaicius3 ) );
 iv.	rezultatas: teisingos reikšmės;
 */
+
 const nr_aa = 4;
 const nr_bb= 10;
 const nr_cc = 9;
@@ -580,7 +581,6 @@ vi.	console.log( skaitmenuKiekisSkaiciuje( NaN ) );
 1.	rezultatas: “Pateikta netinkamo tipo reikšmė.”
 */
 
-
 function skaitmenuKiekisSkaiciuje(number1) {
     let atskirasKintamasis = 0;
 
@@ -599,7 +599,7 @@ console.log(skaitmenuKiekisSkaiciuje(true));
 console.log(skaitmenuKiekisSkaiciuje("asd"));
 console.log(skaitmenuKiekisSkaiciuje(NaN));
 
-//console.clear();
+console.clear();
 
 /*
 4.	Funkcija pavadinimu “didziausiasSkaiciusSarase”:
@@ -625,7 +625,6 @@ vi.	console.log( didziausiasSkaiciusSarase( “pomidoras” ) );
 vii.	console.log( didziausiasSkaiciusSarase( [] ) );
 1.	rezultatas: “Pateiktas sąrašas negali būti tuščias.”
 */
-
 
 function didziausiasSkaiciusSarase(variable1) {
     if (!Array.isArray(variable1) || variable1.length === 0) {
