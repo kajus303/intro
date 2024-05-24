@@ -599,7 +599,7 @@ console.log(skaitmenuKiekisSkaiciuje(true));
 console.log(skaitmenuKiekisSkaiciuje("asd"));
 console.log(skaitmenuKiekisSkaiciuje(NaN));
 
-console.clear();
+//console.clear();
 
 /*
 4.	Funkcija pavadinimu “didziausiasSkaiciusSarase”:
