@@ -11,30 +11,27 @@ if () {}
 if () {} else {}
 if () {} else if () {}
 if () {} else if () {} else {}
-if () {} ...else if () {} ...else if {}
-if () {} ...else if () {} ...else {}
+if () {} ... else if () {} ... else if () {}
+if () {} ... else if () {} ... else {}
+
 */
 
 const age = 99;
 const ageLimit = 18;
 
 // 1 variantas
-
-if (age > ageLimit) {
-    console.log('Atsiprasome, esate per jaunas...');
+if (age < ageLimit) {
+    console.log('Sorry, bet esi per jaunas...');
 }
 
 // 2 variantas
-
 if (age < ageLimit) {
-    console.log('Atsiprasome, esate per jaunas...');
+    console.log('Sorry, bet esi per jaunas...');
 } else {
-    console.log('Prasome uzeiti...');
+    console.log('Ok, uzeik ir pasismagink ;)');
 }
 
-console.clear();
-
-if (4 <= 2) {
+if (4 == 2) {
     console.log('TAIP, daugiau');
 } else {
     console.log('NE, maziau');
@@ -42,62 +39,35 @@ if (4 <= 2) {
 
 console.clear();
 
+// 3 variantas
+// red -> raudona
+// blue -> melyna
+// green -> zalia
+// other -> Nezinau tokios spalvos...
 
-// red - Raudona
-// blue - Melyna
-// green - Zalia
-// other - Nezinau tokios spalvos
-
-const color = 'white';
-
-if (color === 'red') {
-    console.log('Raudona');
-} else if (color === 'blue') {
-    console.log('Melyna');
-} else if (color === 'green') {
-    console.log('Zalia');
-} else {
-    console.log('Nezinau tokios spalvos');
-}
-
-console.clear();
-
-const color2 = 'red';
-let translation = '';
-
-if (color2 === 'red') {
-    translation = 'Raudona';
-} else if (color2 === 'blue') {
-    translation = 'Melyna';
-} else if (color2 === 'green') {
-    translation = 'Zalia';
-} else {
-    translation = 'Nezinau tokios spalvos';
-}
-
-console.log('>>>', translation);
-
-console.clear();
-
-function colorTranslation(spalva) {
+function colorTranslation(color) {
     let translation = '';
 
-    if (spalva === 'red') {
+    if (color === 'red') {
         translation = 'Raudona';
-    } else if (spalva === 'blue') {
+    } else if (color === 'blue') {
         translation = 'Melyna';
-    } else if (spalva === 'green') {
+    } else if (color === 'green') {
         translation = 'Zalia';
+    } else if (color === 'white') {
+        translation = 'Balta';
     } else {
-        translation = 'Nezinau tokios spalvos';
+        translation = '...';
     }
-    return spalva + ' - ' + translation;
+
+    return color + ' -> ' + translation;
 }
 
 console.log(colorTranslation('white'));
 console.log(colorTranslation('black'));
 console.log(colorTranslation('red'));
 console.log(colorTranslation('orange'));
-console.log(colorTranslation('white'));
-console.log(colorTranslation('white'));
+console.log(colorTranslation('blue'));
+console.log(colorTranslation('violet'));
 console.log(colorTranslation('green'));
+console.log(colorTranslation('yellow'));

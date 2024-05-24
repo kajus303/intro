@@ -4,10 +4,6 @@ FOR - pagrindinis ciklas (en. loop)
 
 console.log('START');
 
-for (let i = 0; i < 10 ; i++) {
-    console.log(i);
-}
-
 for (let i = 20; i > 10; i -= 2.3) {
     console.log(i);
 }
@@ -18,18 +14,19 @@ for (let i = 200; i > 100; i -= 23) {
 
 console.log('FINISH');
 
-console.clear();
 
+console.clear();
+//                  0       1       2       3       4         5
 const colors = ['white', 'black', 'red', 'green', 'blue', 'violet'];
 
 for (let i = 0; i < colors.length; i++) {
     console.log(i, colors[colors.length - 1 - i]);
 }
 
-console.log('-------------');
+console.log('--------------');
 
 for (let i = colors.length - 1; i >= 0; i--) {
-    console.log(i, colors[i]);
+    console.log(i, colors[colors.length - 1 - i]);
 }
 
 console.clear();
