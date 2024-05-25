@@ -762,6 +762,7 @@ function didziausiasSkaiciusSarase(variable1) {
       maxNumber = variable1[i];
     }
   }
+
   return maxNumber;
 }
 
