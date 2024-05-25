@@ -18,136 +18,135 @@ console.log(piniginesTurinys_t + turinys_s);
 
 console.clear();
 
-
 // ND - visos 128 kombinacijos
 
 console.log(true && true && true && true);
-console.log(true && true && true || true);
-console.log(true && true || true && true);
-console.log(true || true && true && true);
-console.log(true && true || true || true);
-console.log(true || true || true && true);
-console.log(true || true && true || true);
+console.log((true && true && true) || true);
+console.log((true && true) || (true && true));
+console.log(true || (true && true && true));
+console.log((true && true) || true || true);
+console.log(true || true || (true && true));
+console.log(true || (true && true) || true);
 console.log(true || true || true || true);
 console.log(true && true && true && false);
-console.log(true && true && true || false);
-console.log(true && true || true && false);
-console.log(true || true && true && false);
-console.log(true && true || true || false);
-console.log(true || true || true && false);
-console.log(true || true && true || false);
+console.log((true && true && true) || false);
+console.log((true && true) || (true && false));
+console.log(true || (true && true && false));
+console.log((true && true) || true || false);
+console.log(true || true || (true && false));
+console.log(true || (true && true) || false);
 console.log(true || true || true || false);
 console.log(true && true && false && true);
-console.log(true && true && false || true);
-console.log(true && true || false && true);
-console.log(true || true && false && true);
-console.log(true && true || false || true);
-console.log(true || true || false && true);
-console.log(true || true && false || true);
+console.log((true && true && false) || true);
+console.log((true && true) || (false && true));
+console.log(true || (true && false && true));
+console.log((true && true) || false || true);
+console.log(true || true || (false && true));
+console.log(true || (true && false) || true);
 console.log(true || true || false || true);
 console.log(true && false && true && true);
-console.log(true && false && true || true);
-console.log(true && false || true && true);
-console.log(true || false && true && true);
-console.log(true && false || true || true);
-console.log(true || false || true && true);
-console.log(true || false && true || true);
+console.log((true && false && true) || true);
+console.log((true && false) || (true && true));
+console.log(true || (false && true && true));
+console.log((true && false) || true || true);
+console.log(true || false || (true && true));
+console.log(true || (false && true) || true);
 console.log(true || false || true || true);
 console.log(false && true && true && true);
-console.log(false && true && true || true);
-console.log(false && true || true && true);
-console.log(false || true && true && true);
-console.log(false && true || true || true);
-console.log(false || true || true && true);
-console.log(false || true && true || true);
+console.log((false && true && true) || true);
+console.log((false && true) || (true && true));
+console.log(false || (true && true && true));
+console.log((false && true) || true || true);
+console.log(false || true || (true && true));
+console.log(false || (true && true) || true);
 console.log(false || true || true || true);
 console.log(true && true && false && false);
-console.log(true && true && false || false);
-console.log(true && true || false && false);
-console.log(true || true && false && false);
-console.log(true && true || false || false);
-console.log(true || true || false && false);
-console.log(true || true && false || false);
+console.log((true && true && false) || false);
+console.log((true && true) || (false && false));
+console.log(true || (true && false && false));
+console.log((true && true) || false || false);
+console.log(true || true || (false && false));
+console.log(true || (true && false) || false);
 console.log(true || true || false || false);
 console.log(true && false && false && true);
-console.log(true && false && false || true);
-console.log(true && false || false && true);
-console.log(true || false && false && true);
-console.log(true && false || false || true);
-console.log(true || false || false && true);
-console.log(true || false && false || true);
+console.log((true && false && false) || true);
+console.log((true && false) || (false && true));
+console.log(true || (false && false && true));
+console.log((true && false) || false || true);
+console.log(true || false || (false && true));
+console.log(true || (false && false) || true);
 console.log(true || false || false || true);
 console.log(false && false && true && true);
-console.log(false && false && true || true);
-console.log(false && false || true && true);
-console.log(false || false && true && true);
-console.log(false && false || true || true);
-console.log(false || false || true && true);
-console.log(false || false && true || true);
+console.log((false && false && true) || true);
+console.log((false && false) || (true && true));
+console.log(false || (false && true && true));
+console.log((false && false) || true || true);
+console.log(false || false || (true && true));
+console.log(false || (false && true) || true);
 console.log(false || false || true || true);
 console.log(false && true && true && false);
-console.log(false && true && true || false);
-console.log(false && true || true && false);
-console.log(false || true && true && false);
-console.log(false && true || true || false);
-console.log(false || true || true && false);
-console.log(false || true && true || false);
+console.log((false && true && true) || false);
+console.log((false && true) || (true && false));
+console.log(false || (true && true && false));
+console.log((false && true) || true || false);
+console.log(false || true || (true && false));
+console.log(false || (true && true) || false);
 console.log(false || true || true || false);
 console.log(true && false && true && false);
-console.log(true && false && true || false);
-console.log(true && false || true && false);
-console.log(true || false && true && false);
-console.log(true && false || true || false);
-console.log(true || false || true && false);
-console.log(true || false && true || false);
+console.log((true && false && true) || false);
+console.log((true && false) || (true && false));
+console.log(true || (false && true && false));
+console.log((true && false) || true || false);
+console.log(true || false || (true && false));
+console.log(true || (false && true) || false);
 console.log(true || false || true || false);
 console.log(false && true && false && true);
-console.log(false && true && false || true);
-console.log(false && true || false && true);
-console.log(false || true && false && true);
-console.log(false && true || false || true);
-console.log(false || true || false && true);
-console.log(false || true && false || true);
+console.log((false && true && false) || true);
+console.log((false && true) || (false && true));
+console.log(false || (true && false && true));
+console.log((false && true) || false || true);
+console.log(false || true || (false && true));
+console.log(false || (true && false) || true);
 console.log(false || true || false || true);
 console.log(true && false && false && false);
-console.log(true && false && false || false);
-console.log(true && false || false && false);
-console.log(true || false && false && false);
-console.log(true && false || false || false);
-console.log(true || false || false && false);
-console.log(true || false && false || false);
+console.log((true && false && false) || false);
+console.log((true && false) || (false && false));
+console.log(true || (false && false && false));
+console.log((true && false) || false || false);
+console.log(true || false || (false && false));
+console.log(true || (false && false) || false);
 console.log(true || false || false || false);
 console.log(false && false && false && true);
-console.log(false && false && false || true);
-console.log(false && false || false && true);
-console.log(false || false && false && true);
-console.log(false && false || false || true);
-console.log(false || false || false && true);
-console.log(false || false && false || true);
+console.log((false && false && false) || true);
+console.log((false && false) || (false && true));
+console.log(false || (false && false && true));
+console.log((false && false) || false || true);
+console.log(false || false || (false && true));
+console.log(false || (false && false) || true);
 console.log(false || false || false || true);
 console.log(false && false && true && false);
-console.log(false && false && true || false);
-console.log(false && false || true && false);
-console.log(false || false && true && false);
-console.log(false && false || true || false);
-console.log(false || false || true && false);
-console.log(false || false && true || false);
+console.log((false && false && true) || false);
+console.log((false && false) || (true && false));
+console.log(false || (false && true && false));
+console.log((false && false) || true || false);
+console.log(false || false || (true && false));
+console.log(false || (false && true) || false);
 console.log(false || false || true || false);
 console.log(false && true && false && false);
-console.log(false && true && false || false);
-console.log(false && true || false && false);
-console.log(false || true && false && false);
-console.log(false && true || false || false);
-console.log(false || true || false && false);
-console.log(false || true && false || false);
+console.log((false && true && false) || false);
+console.log((false && true) || (false && false));
+console.log(false || (true && false && false));
+console.log((false && true) || false || false);
+console.log(false || true || (false && false));
+console.log(false || (true && false) || false);
 console.log(false || true || false || false);
 console.log(false && false && false && false);
-console.log(false && false && false || false);
-console.log(false && false || false && false);
-console.log(false || false && false && false);
-console.log(false && false || false || false);
-console.log(false || false || false && false);
-console.log(false || false && false || false);
+console.log((false && false && false) || false);
+console.log((false && false) || (false && false));
+console.log(false || (false && false && false));
+console.log((false && false) || false || false);
+console.log(false || false || (false && false));
+console.log(false || (false && false) || false);
 console.log(false || false || false || false);
 
 /*
@@ -173,7 +172,6 @@ Kitas budas:
 
 console.clear();
 
-
 // ___ND___
 
 // 1 uzduotis
@@ -194,16 +192,16 @@ console.log(sum);
 console.clear();
 
 // 1.2
-const word1 = 'Labas';
+const word1 = "Labas";
 console.log(word1);
 
-const word2 = 'Sveikas';
+const word2 = "Sveikas";
 console.log(word2);
 
-const word3 = 'Viso';
+const word3 = "Viso";
 console.log(word3);
 
-const sentence = word1 + ' ' + word2 + ' ' + word3;
+const sentence = word1 + " " + word2 + " " + word3;
 console.log(sentence);
 
 console.clear();
@@ -227,22 +225,49 @@ console.log(combo1_ans, combo2_ans, combo3_ans);
 console.clear();
 
 // 1.4
-const words1 = ['Labas', 'Sveikas', 'Viso', 'Dangus', 'Zeme'];
+const words1 = ["Labas", "Sveikas", "Viso", "Dangus", "Zeme"];
 console.log(words1);
 
-const words2 = ['Masina', 'Namas', 'Tvora', 'Dviratis', 'Stalas'];
+const words2 = ["Masina", "Namas", "Tvora", "Dviratis", "Stalas"];
 console.log(words2);
 
-const words3 = ['Medis', 'Langas', 'Ranka', 'Kiemas', 'Laukas'];
+const words3 = ["Medis", "Langas", "Ranka", "Kiemas", "Laukas"];
 console.log(words3);
 
-const words1_combo = words1[4] + ', ' + words1[3] + ', ' + words1[2] + ', ' + words1[1] + ', ' + words1[0];
+const words1_combo =
+  words1[4] +
+  ", " +
+  words1[3] +
+  ", " +
+  words1[2] +
+  ", " +
+  words1[1] +
+  ", " +
+  words1[0];
 console.log(words1_combo);
 
-const words2_combo = words2[4] + ', ' + words2[3] + ', ' + words2[2] + ', ' + words2[1] + ', ' + words2[0];
+const words2_combo =
+  words2[4] +
+  ", " +
+  words2[3] +
+  ", " +
+  words2[2] +
+  ", " +
+  words2[1] +
+  ", " +
+  words2[0];
 console.log(words2_combo);
 
-const words3_combo = words3[4] + ', ' + words3[3] + ', ' + words3[2] + ', ' + words3[1] + ', ' + words3[0];
+const words3_combo =
+  words3[4] +
+  ", " +
+  words3[3] +
+  ", " +
+  words3[2] +
+  ", " +
+  words3[1] +
+  ", " +
+  words3[0];
 console.log(words3_combo);
 
 console.clear();
@@ -253,59 +278,59 @@ const a_1 = 5;
 const b_1 = 10;
 
 if (a_1 > b_1) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (a_1 < b_1) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (a_1 === b_1) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (a_1 !== b_1) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (a_1 >= b_1) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (a_1 <= b_1) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 console.clear();
 
 // 2.2
 
-const text_1 = 'Sveiki atvyke!';
-const text_2 = 'Iki pasimatymo, drauge.';
+const text_1 = "Sveiki atvyke!";
+const text_2 = "Iki pasimatymo, drauge.";
 
 if (text_1.length > text_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (text_1.length < text_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (text_1.length === text_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (text_1.length !== text_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (text_1.length >= text_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (text_1.length <= text_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 console.clear();
 
@@ -315,28 +340,28 @@ const arr_1 = [2, 5, 3, 6, 7, 2, 10];
 const arr_2 = [20, 50, 30, 60, 70, 20, 100, 200];
 
 if (arr_1.length > arr_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (arr_1.length < arr_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (arr_1.length === arr_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (arr_1.length !== arr_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (arr_1.length >= arr_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 if (arr_1.length <= arr_2.length) {
-    console.log('Pomidoras');
-} else console.log('Bandykite dar karta.');
+  console.log("Pomidoras");
+} else console.log("Bandykite dar karta.");
 
 console.clear();
 
@@ -346,7 +371,7 @@ const numbers3_a = [0, 0];
 let sum3_a = 0;
 
 for (let i = numbers3_a[0]; i <= numbers3_a[1]; i++) {
-    sum3_a += i;
+  sum3_a += i;
 }
 
 console.log(sum3_a);
@@ -355,7 +380,7 @@ const numbers3_b = [0, 4];
 let sum3_b = 0;
 
 for (let i = numbers3_b[0]; i <= numbers3_b[1]; i++) {
-    sum3_b += i;
+  sum3_b += i;
 }
 
 console.log(sum3_b);
@@ -364,7 +389,7 @@ const numbers3_c = [0, 100];
 let sum3_c = 0;
 
 for (let i = numbers3_c[0]; i <= numbers3_c[1]; i++) {
-    sum3_c += i;
+  sum3_c += i;
 }
 
 console.log(sum3_c);
@@ -373,7 +398,7 @@ const numbers3_d = [574, 815];
 let sum3_d = 0;
 
 for (let i = numbers3_d[0]; i <= numbers3_d[1]; i++) {
-    sum3_d += i;
+  sum3_d += i;
 }
 
 console.log(sum3_d);
@@ -382,7 +407,7 @@ const numbers3_e = [-50, 50];
 let sum3_e = 0;
 
 for (let i = numbers3_e[0]; i <= numbers3_e[1]; i++) {
-    sum3_e += i;
+  sum3_e += i;
 }
 
 console.log(sum3_e);
@@ -391,7 +416,7 @@ const numbers3_f = [-70, 30];
 let sum3_f = 0;
 
 for (let i = numbers3_f[0]; i <= numbers3_f[1]; i++) {
-    sum3_f += i;
+  sum3_f += i;
 }
 
 console.log(sum3_f);
@@ -400,11 +425,11 @@ console.clear();
 
 // 3.2
 
-const abcdef = 'abcdef';
-let reversed_abcdef = '';
+const abcdef = "abcdef";
+let reversed_abcdef = "";
 
 for (let i = abcdef.length - 1; i >= 0; i--) {
-    reversed_abcdef += abcdef[i];
+  reversed_abcdef += abcdef[i];
 }
 
 console.log(reversed_abcdef);
@@ -413,7 +438,13 @@ console.clear();
 
 // 3.3
 
-const text3a = ['Skaiciu intervale tarp ', ' ir ', ', besidalijanciu be liekanos is ', ' yra ', ' vienetai.'];
+const text3a = [
+  "Skaiciu intervale tarp ",
+  " ir ",
+  ", besidalijanciu be liekanos is ",
+  " yra ",
+  " vienetai.",
+];
 
 const a_numbers = [0, 11];
 const nr_div1_a = 3;
@@ -424,17 +455,17 @@ let nr5_count_a = 0;
 let nr7_count_a = 0;
 
 for (let i = a_numbers[0]; i <= a_numbers[1]; i++) {
-    if (i % nr_div1_a === 0) {
-        nr3_count_a++
-    }
+  if (i % nr_div1_a === 0) {
+    nr3_count_a++;
+  }
 
-    if (i % nr_div2_a === 0) {
-        nr5_count_a++
-    }
+  if (i % nr_div2_a === 0) {
+    nr5_count_a++;
+  }
 
-    if (i % nr_div3_a === 0) {
-        nr7_count_a++
-    }
+  if (i % nr_div3_a === 0) {
+    nr7_count_a++;
+  }
 }
 
 const b_numbers = [8, 31];
@@ -446,17 +477,17 @@ let nr5_count_b = 0;
 let nr7_count_b = 0;
 
 for (let i = b_numbers[0]; i <= b_numbers[1]; i++) {
-    if (i % nr_div1_b === 0) {
-        nr3_count_b++
-    }
+  if (i % nr_div1_b === 0) {
+    nr3_count_b++;
+  }
 
-    if (i % nr_div2_b === 0) {
-        nr5_count_b++
-    }
+  if (i % nr_div2_b === 0) {
+    nr5_count_b++;
+  }
 
-    if (i % nr_div3_b === 0) {
-        nr7_count_b++
-    }
+  if (i % nr_div3_b === 0) {
+    nr7_count_b++;
+  }
 }
 
 const c_numbers = [-18, 18];
@@ -468,36 +499,126 @@ let nr5_count_c = 0;
 let nr7_count_c = 0;
 
 for (let i = c_numbers[0]; i <= c_numbers[1]; i++) {
-    if (i % nr_div1_c === 0) {
-        nr3_count_c++
-    }
+  if (i % nr_div1_c === 0) {
+    nr3_count_c++;
+  }
 
-    if (i % nr_div2_c === 0) {
-        nr5_count_c++
-    }
+  if (i % nr_div2_c === 0) {
+    nr5_count_c++;
+  }
 
-    if (i % nr_div3_c === 0) {
-        nr7_count_c++
-    }
+  if (i % nr_div3_c === 0) {
+    nr7_count_c++;
+  }
 }
 
 console.clear();
 
-console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div1_a, text3a[3], nr3_count_a, text3a[4]);
-console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div2_a, text3a[3], nr5_count_a, text3a[4]);
-console.log(text3a[0], a_numbers[0], text3a[1], a_numbers[1], text3a[2], nr_div3_a, text3a[3], nr7_count_a, text3a[4]);
+console.log(
+  text3a[0],
+  a_numbers[0],
+  text3a[1],
+  a_numbers[1],
+  text3a[2],
+  nr_div1_a,
+  text3a[3],
+  nr3_count_a,
+  text3a[4]
+);
+console.log(
+  text3a[0],
+  a_numbers[0],
+  text3a[1],
+  a_numbers[1],
+  text3a[2],
+  nr_div2_a,
+  text3a[3],
+  nr5_count_a,
+  text3a[4]
+);
+console.log(
+  text3a[0],
+  a_numbers[0],
+  text3a[1],
+  a_numbers[1],
+  text3a[2],
+  nr_div3_a,
+  text3a[3],
+  nr7_count_a,
+  text3a[4]
+);
 
-console.log('---------------------------');
+console.log("---------------------------");
 
-console.log(text3a[0], b_numbers[0], text3a[1], b_numbers[1], text3a[2], nr_div1_b, text3a[3], nr3_count_b, text3a[4]);
-console.log(text3a[0], b_numbers[0], text3a[1], b_numbers[1], text3a[2], nr_div2_b, text3a[3], nr5_count_b, text3a[4]);
-console.log(text3a[0], b_numbers[0], text3a[1], b_numbers[1], text3a[2], nr_div3_b, text3a[3], nr7_count_b, text3a[4]);
+console.log(
+  text3a[0],
+  b_numbers[0],
+  text3a[1],
+  b_numbers[1],
+  text3a[2],
+  nr_div1_b,
+  text3a[3],
+  nr3_count_b,
+  text3a[4]
+);
+console.log(
+  text3a[0],
+  b_numbers[0],
+  text3a[1],
+  b_numbers[1],
+  text3a[2],
+  nr_div2_b,
+  text3a[3],
+  nr5_count_b,
+  text3a[4]
+);
+console.log(
+  text3a[0],
+  b_numbers[0],
+  text3a[1],
+  b_numbers[1],
+  text3a[2],
+  nr_div3_b,
+  text3a[3],
+  nr7_count_b,
+  text3a[4]
+);
 
-console.log('---------------------------');
+console.log("---------------------------");
 
-console.log(text3a[0], c_numbers[0], text3a[1], c_numbers[1], text3a[2], nr_div1_c, text3a[3], nr3_count_c, text3a[4]);
-console.log(text3a[0], c_numbers[0], text3a[1], c_numbers[1], text3a[2], nr_div2_c, text3a[3], nr5_count_c, text3a[4]);
-console.log(text3a[0], c_numbers[0], text3a[1], c_numbers[1], text3a[2], nr_div3_c, text3a[3], nr7_count_c, text3a[4]);
+console.log(
+  text3a[0],
+  c_numbers[0],
+  text3a[1],
+  c_numbers[1],
+  text3a[2],
+  nr_div1_c,
+  text3a[3],
+  nr3_count_c,
+  text3a[4]
+);
+console.log(
+  text3a[0],
+  c_numbers[0],
+  text3a[1],
+  c_numbers[1],
+  text3a[2],
+  nr_div2_c,
+  text3a[3],
+  nr5_count_c,
+  text3a[4]
+);
+console.log(
+  text3a[0],
+  c_numbers[0],
+  text3a[1],
+  c_numbers[1],
+  text3a[2],
+  nr_div3_c,
+  text3a[3],
+  nr7_count_c,
+  text3a[4]
+);
 
 console.clear();
 
@@ -520,8 +641,7 @@ ii.	rezultatas: false
 */
 
 function tusciaFunkcija() {
-
-    return 5 > 10;  // arba tiesiog 'return false;'
+  return 5 > 10; // arba tiesiog 'return false;'
 }
 
 console.log(tusciaFunkcija());
@@ -541,16 +661,16 @@ iv.	rezultatas: teisingos reikšmės;
 */
 
 const nr_aa = 4;
-const nr_bb= 10;
+const nr_bb = 10;
 const nr_cc = 9;
 
 function daugyba(skaicius1, skaicius2) {
-    if (typeof skaicius1 !== 'number' || typeof skaicius2 !== 'number') {
-        return 'Būtina įvesti tik skaičius.';
-    } else {
-        const result = skaicius1 * skaicius2;
-        return result;
-    }
+  if (typeof skaicius1 !== "number" || typeof skaicius2 !== "number") {
+    return "Būtina įvesti tik skaičius.";
+  } else {
+    const result = skaicius1 * skaicius2;
+    return result;
+  }
 }
 
 console.log(daugyba(nr_aa, nr_bb));
@@ -582,14 +702,15 @@ vi.	console.log( skaitmenuKiekisSkaiciuje( NaN ) );
 */
 
 function skaitmenuKiekisSkaiciuje(number1) {
-    let atskirasKintamasis = 0;
+  let atskirasKintamasis = 0;
 
-    if (typeof(number1) !== 'number' || isNaN(number1)) {
-        return 'Pateikta netinkamo tipo reikšmė.';
-    } else {atskirasKintamasis += number1.toString().length;
-    }
+  if (typeof number1 !== "number" || isNaN(number1)) {
+    return "Pateikta netinkamo tipo reikšmė.";
+  } else {
+    atskirasKintamasis += number1.toString().length;
+  }
 
-    return 'Skaitmenų kiekis skaičiuje: ' + atskirasKintamasis;
+  return "Skaitmenų kiekis skaičiuje: " + atskirasKintamasis;
 }
 
 console.log(skaitmenuKiekisSkaiciuje(5));
@@ -627,16 +748,27 @@ vii.	console.log( didziausiasSkaiciusSarase( [] ) );
 */
 
 function didziausiasSkaiciusSarase(variable1) {
-    if (!Array.isArray(variable1) || variable1.length === 0) {
-        return 'Pateikta netinkamo tipo reikšmė.';
+  if (!Array.isArray(variable1)) {
+    return "Pateikta netinkamo tipo reikšmė.";
+  } else if (variable1.length === 0) {
+    return "Pateiktas sąrašas negali būti tuščias.";
+  }
+
+  let maxNumber = variable1[0];
+  for (let i = 0; i < variable1.length; i++) {
+    if (typeof variable1[i] !== "number" || isNaN(variable1[i])) {
+      return "Visi sąrašo elementai privalo būti skaičiai.";
+    } else if (variable1[i] > maxNumber) {
+      maxNumber = variable1[i];
     }
-
-    for (let i = variable1[0]; i <= variable1.length; i++) {
-        return i;
-    } 
-
-
-
+  }
+  return maxNumber;
 }
 
-console.log(didziausiasSkaiciusSarase([2, 3, 6, 8]));
+console.log(didziausiasSkaiciusSarase([1]));
+console.log(didziausiasSkaiciusSarase([1, 2, 3]));
+console.log(didziausiasSkaiciusSarase([-5, 78, 14, 0, 18]));
+console.log(didziausiasSkaiciusSarase([69, 69, 69, 69, 66]));
+console.log(didziausiasSkaiciusSarase([-1, -2, -3, -4, -5, -6, -7, -8]));
+console.log(didziausiasSkaiciusSarase("pomidoras"));
+console.log(didziausiasSkaiciusSarase([]));
