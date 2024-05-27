@@ -665,7 +665,12 @@ const nr_bb = 10;
 const nr_cc = 9;
 
 function daugyba(skaicius1, skaicius2) {
-  if (typeof skaicius1 !== "number" || typeof skaicius2 !== "number") {
+  if (
+    typeof skaicius1 !== "number" ||
+    typeof skaicius2 !== "number" ||
+    !Number.isFinite(skaicius1) ||
+    !Number.isFinite(skaicius2)
+  ) {
     return "Būtina įvesti tik skaičius.";
   } else {
     const result = skaicius1 * skaicius2;
@@ -704,7 +709,7 @@ vi.	console.log( skaitmenuKiekisSkaiciuje( NaN ) );
 function skaitmenuKiekisSkaiciuje(number1) {
   let atskirasKintamasis = 0;
 
-  if (typeof number1 !== "number" || isNaN(number1)) {
+  if (typeof number1 !== "number" || !Number.isFinite(number1)) {
     return "Pateikta netinkamo tipo reikšmė.";
   } else {
     atskirasKintamasis += number1.toString().length;
@@ -756,7 +761,7 @@ function didziausiasSkaiciusSarase(variable1) {
 
   let maxNumber = variable1[0];
   for (let i = 0; i < variable1.length; i++) {
-    if (typeof variable1[i] !== "number" || isNaN(variable1[i])) {
+    if (typeof variable1[i] !== "number" || !Number.isFinite(variable1[i])) {
       return "Visi sąrašo elementai privalo būti skaičiai.";
     } else if (variable1[i] > maxNumber) {
       maxNumber = variable1[i];
