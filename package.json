@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "matrix": "node --watch ./js/nd/matrix.js",
+    "clock": "node --watch ./js/nd/clock.js",
+    "multiply": "node --watch ./js/nd/multiply.js",
+    "cw:polish": "node --watch ./js/codewars/polish.js",
     "method:string": "node --watch ./js/metodai/string.js",
     "method:number": "node --watch ./js/metodai/number.js",
     "typeof": "node --watch ./js/duomenys/typeof.js",
