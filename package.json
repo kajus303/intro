@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "numberSize": "node --watch ./js/nd/numberSize.js",
+    "mini": "node --watch ./js/nd/mini.js",
     "matrix": "node --watch ./js/nd/matrix.js",
     "clock": "node --watch ./js/nd/clock.js",
     "multiply": "node --watch ./js/nd/multiply.js",
