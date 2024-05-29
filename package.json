@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "arrow": "node --watch ./js/funkcijos/arrow.js",
     "numberSize": "node --watch ./js/nd/numberSize.js",
     "mini": "node --watch ./js/nd/mini.js",
     "matrix": "node --watch ./js/nd/matrix.js",
