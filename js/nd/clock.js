@@ -49,9 +49,7 @@ Pateikimo formatas: 1:00, 2:00
 for (let val = 0; val < 24; val++) {
   for (let min = 0; min < 60; min++) {
     for (let sek = 0; sek < 60; sek++) {
-      for (let ms = 0; ms < 60; ms++) {
-        console.log(val + ":" + min + ":" + sek + ":" + ms);
-      }
+      console.log(val + ":" + min + ":" + sek);
     }
   }
 }

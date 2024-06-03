@@ -5,13 +5,13 @@ iniciavimas: ' (vienguba), " (dvyguba), ` (backtick)
 
 */
 
-const name = 'Jonas';
+const name = "Jonas";
 console.log(name);
 
 const name2 = "Maryte";
 console.log(name2);
 
-const sakinys = 'Labas rytas, Lietuva!';
+const sakinys = "Labas rytas, Lietuva!";
 console.log(sakinys);
 
 // Vienguba (') kabute.
@@ -22,9 +22,9 @@ console.log(kabutes1);
 const kabutes2 = 'Dvyguba (") kabute.';
 console.log(kabutes2);
 
-const personName = 'Chuck';
-const personSurname = 'Norris';
-const fullname = personName + ' ' + personSurname;
+const personName = "Chuck";
+const personSurname = "Norris";
+const fullname = personName + " " + personSurname;
 console.log(fullname);
 
 // Vienguba (') ir dvyguba (") kabutes.
@@ -32,10 +32,10 @@ const kabutes12 = "Vienguba (') ir" + ' dvyguba (") kabutes.';
 console.log(kabutes12);
 
 // Vienguba (') ir dvyguba (") kabutes.
-const kabutes12_1 = 'Vienguba (\') ir dvyguba (") kabutes.';
+const kabutes12_1 = "Vienguba (') ir dvyguba (\") kabutes.";
 const kabutes12_2 = "Vienguba (') ir dvyguba (\") kabutes.";
-const kabutes12_3 = 'Vienguba (\') ir dvyguba (\") kabutes';
-const kabutes12_4 = "Vienguba (\') ir dvyguba (\") kabutes.";
+const kabutes12_3 = "Vienguba (') ir dvyguba (\") kabutes";
+const kabutes12_4 = "Vienguba (') ir dvyguba (\") kabutes.";
 
 // escaping
 console.log(kabutes12_1);
@@ -65,7 +65,8 @@ console.clear();
 // \r - return
 // \n - new line
 // \t - tab
-const HTML = '\
+const HTML =
+  "\
 <header>\r\n\
 \t<img>\r\n\
 \t<nav>\r\n\
@@ -73,7 +74,7 @@ const HTML = '\
 \t\t<a></a>\r\n\
 \t\t<a></a>\r\n\
 \t</nav>\r\n\
-</header>';
+</header>";
 
 console.log(HTML);
 
@@ -81,7 +82,7 @@ const backtick = `Labas rytas, Lietuva!`;
 console.log(backtick);
 
 const backtick1 = `Backtikine (\`) kabute.`;
-const backtick2 = 'Backtikine (`) kabute.';
+const backtick2 = "Backtikine (`) kabute.";
 const backtick3 = "Backtikine (`) kabute.";
 
 const HTML2 = `<header>
@@ -100,7 +101,7 @@ const b = 5;
 const c = a + b;
 
 // 7 + 5 = 12
-const ats1 = a + ' + ' + b + ' = ' + c;
+const ats1 = a + " + " + b + " = " + c;
 console.log(ats1);
 
 const ats2 = a + " + " + b + " = " + c;
@@ -109,25 +110,32 @@ console.log(ats2);
 const ats3 = `${a} + ${b} = ${c}`;
 console.log(ats3);
 
-
 const start = 0;
 const finish = 11;
 const step = 3;
 const answer = 4;
 
-const mini1 = 'Skaičių intervale tarp ' + start + ' ir ' + finish + ', besidalijančių be liekanos iš ' + step + ' yra ' + answer + ' vienetai.';
+const mini1 =
+  "Skaičių intervale tarp " +
+  start +
+  " ir " +
+  finish +
+  ", besidalijančių be liekanos iš " +
+  step +
+  " yra " +
+  answer +
+  " vienetai.";
 
 console.log(mini1);
 
 const mini2 = `Skaičių intervale tarp ${start} ir ${finish}, besidalijančių be liekanos iš ${step} yra ${answer} vienetai.`;
 console.log(mini2);
 
-const gg = 'Good game!';
-const number = 'Number: ' + answer;
+const gg = "Good game!";
+const number = "Number: " + answer;
 
 console.log(mini1.length);
 console.log(mini1[0]);
 
-
-console.log('' + true);
+console.log("" + true);
 console.log(true.toString());

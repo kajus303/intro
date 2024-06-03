@@ -50,10 +50,10 @@ console.log(2 ** 3, 2 * 2 * 2);
 console.log(2 ** 4, 2 * 2 * 2 * 2);
 
 const liekana1 = pirmas % antras;
-console.log(pirmas, '%', antras, '=', liekana1);
+console.log(pirmas, "%", antras, "=", liekana1);
 
 const liekana2 = antras % pirmas;
-console.log(antras, '%', pirmas, '=', liekana2);
+console.log(antras, "%", pirmas, "=", liekana2);
 
 console.clear();
 
@@ -71,21 +71,21 @@ console.log(pinigine);
 
 console.clear();
 
-let money = 0;          // 0
+let money = 0; // 0
 console.log(money);
 
-money = 5;              // 5
+money = 5; // 5
 console.log(money);
 
 // ?? = 5 + 1
-money = money + 1;      // 6
+money = money + 1; // 6
 console.log(money);
 
 // ?? = 6 + 2
-money = money + 2;      // 8
+money = money + 2; // 8
 console.log(money);
 
-money = money + 3;      // 11
+money = money + 3; // 11
 console.log(money);
 
 console.clear();

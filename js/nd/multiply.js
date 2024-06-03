@@ -1,13 +1,13 @@
 function multiply(a, b) {
   /*
-    - jeigu, pirmas parametras nera skaicius
-        - graziname klaidos pranesima
-    - jeigu, antras parametras nera skaicius
-        - graziname klaidos pranesima
-        
-    - Atskirame kintamaje issisaugome sandaugos reiksme
-    - Graziname sandaugos reiksme
-    */
+  - jeigu, pirmas parametras nera skaicius
+      - graziname klaidos pranesima
+  - jeigu, antras parametras nera skaicius
+      - graziname klaidos pranesima
+      
+  - Atskirame kintamaje issisaugome sandaugos reiksme
+  - Graziname sandaugos reiksme
+  */
 }
 
 function multiply(a, b) {

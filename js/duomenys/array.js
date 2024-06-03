@@ -17,24 +17,23 @@ const average1 = sum / count;
 
 console.log(average1);
 
-
 //              0, 1, 2, 3, 4, .....
 const marks = [10, 2, 8, 4, 6];
 console.log(marks);
 
-console.log('>>>', marks[0]);
-console.log('>>>', marks[1]);
-console.log('>>>', marks[2]);
-console.log('>>>', marks[3]);
-console.log('>>>', marks[4]);
+console.log(">>>", marks[0]);
+console.log(">>>", marks[1]);
+console.log(">>>", marks[2]);
+console.log(">>>", marks[3]);
+console.log(">>>", marks[4]);
 
 const sum2 = marks[0] + marks[1] + marks[2] + marks[3] + marks[4];
 const count2 = marks.length;
 const average2 = sum2 / count2;
 
-console.log('Suma', sum2);
-console.log('Kiekis', count2);
-console.log('Vidurkis', average2);
+console.log("Suma", sum2);
+console.log("Kiekis", count2);
+console.log("Vidurkis", average2);
 
 console.clear();
 
@@ -54,15 +53,15 @@ console.log(sum3);
 console.clear();
 
 function marksAverage(marks) {
-    if (marks.length === 0) {
-        return 'Vidurkis: nera pazymiu.';
-    }
+  if (marks.length === 0) {
+    return "Vidurkis: nera pazymiu.";
+  }
 
-    let sum = 0;
+  let sum = 0;
 
-    // ????
+  // ????
 
-    return 'Vidurkis: ' + (sum / marks.length);
+  return "Vidurkis: " + sum / marks.length;
 }
 
 const jonoPazymiai = [];
